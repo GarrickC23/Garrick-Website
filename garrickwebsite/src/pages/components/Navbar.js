@@ -1,7 +1,9 @@
-//import { Link } from 'react-router-dom'
+import React from "react";
+import "./Navbar.css";
 import { DiGithubBadge } from "react-icons/di";
 import { AiFillLinkedin } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
+import { FaItchIo } from "react-icons/fa6"
 
 const Navbar = () => {
     return (
@@ -13,11 +15,10 @@ const Navbar = () => {
                 <a href="/">Resume</a>
             </div>
             <div className="right">
-                {/* <div><DiGithubBadge /></div> */}
-                <a href="/">LinkedIn</a>
-                <a href="/">GitHub</a>
-                <a href="/">Email</a>
-                <a href="/">Itch.io</a>
+                <a href="https://www.linkedin.com/in/garrick-chiu/"><AiFillLinkedin/></a>
+                <a href="https://github.com/GarrickC23"><DiGithubBadge/></a>
+                <a href="garrickchiu0723@gmail.com"><HiOutlineMail/></a>
+                <a href="https://garrickchiu.itch.io/"><FaItchIo/></a>
             </div>
         </nav>
     )

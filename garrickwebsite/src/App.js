@@ -1,17 +1,12 @@
 import React from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home/Home";
 
-function Home() {
+function App() {
     return (
         <div className="home">
-            <Navbar />
-            <div className="content">
-                <div className="content-container">
-                </div>
-            </div>
+            <Home />
         </div>
     )
 }
 
-export default Home;
+export default App;

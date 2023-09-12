@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Introduction from "../Introduction/Introduction";
 
 function Home() {
     return (
@@ -7,6 +8,7 @@ function Home() {
             <Navbar />
             <div className="content">
                 <div className="content-container">
+                    <Introduction />
                 </div>
             </div>
         </div>
