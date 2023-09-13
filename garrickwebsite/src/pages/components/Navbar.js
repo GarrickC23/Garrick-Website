@@ -15,10 +15,10 @@ const Navbar = () => {
                 <a href="/">Resume</a>
             </div>
             <div className="right">
-                <a href="https://www.linkedin.com/in/garrick-chiu/"><AiFillLinkedin/></a>
-                <a href="https://github.com/GarrickC23"><DiGithubBadge/></a>
-                <a href="garrickchiu0723@gmail.com"><HiOutlineMail/></a>
-                <a href="https://garrickchiu.itch.io/"><FaItchIo/></a>
+                <a href="https://www.linkedin.com/in/garrick-chiu/" target="_blank"><AiFillLinkedin/></a>
+                <a href="https://github.com/GarrickC23" target="_blank"><DiGithubBadge/></a>
+                <a href="garrickchiu0723@gmail.com" target="_blank"><HiOutlineMail/></a>
+                <a href="https://garrickchiu.itch.io/" target="_blank"><FaItchIo/></a>
             </div>
         </nav>
     )

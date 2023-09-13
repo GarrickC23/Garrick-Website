@@ -1,0 +1,16 @@
+/* base styles */
+*{
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.introduction {
+    padding-bottom: 400px;
+}
+
+.Introduction h1 {
+    color: darkblue;
+    float: right;
+    max-width: 1000px;
+    font-size: 60px;
+}

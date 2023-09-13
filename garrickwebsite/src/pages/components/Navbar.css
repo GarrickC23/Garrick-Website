@@ -5,12 +5,12 @@
 * {
   margin: 0;
   font-family: "Roboto";
-  color: #333;
 }
 .navbar {
   padding-top: 20px;
   padding-right: 60px;
   padding-left: 60px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,6 @@
 }
 .center {
   text-align: center;
-  text-decoration: none;
 }
 .right {
   padding: 20px;
@@ -29,13 +28,14 @@
   scale: 1.4;
 }
 .navbar a {
-  padding: 7px
+  padding: 7px;
+  color: darkblue;
+  text-decoration: none;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: red;
 } 
-.content {
-  max-width: 600px;
+/* .content {
   margin: 40px auto;
-  padding: 20px;
-}
+  max-width: 600px;
+} */
