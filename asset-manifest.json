@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.11c53b06.css",
-    "main.js": "/react-gh-pages/static/js/main.6348e288.js",
-    "static/js/787.fe221098.chunk.js": "/react-gh-pages/static/js/787.fe221098.chunk.js",
-    "static/media/growtential.png": "/react-gh-pages/static/media/growtential.26871bf8e7fd48cc3669.png",
-    "static/media/colorbash.png": "/react-gh-pages/static/media/colorbash.3ff7a07d80675d9f0805.png",
-    "static/media/operationillumussion.png": "/react-gh-pages/static/media/operationillumussion.93fb66292eebfb2e847d.png",
-    "static/media/blade.png": "/react-gh-pages/static/media/blade.4c69262bcc0b3f9d4309.png",
-    "static/media/roselabyrinth.png": "/react-gh-pages/static/media/roselabyrinth.debe282d02fda1cc4725.png",
-    "static/media/sketch.png": "/react-gh-pages/static/media/sketch.a99a61a41f6810ebbd39.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.11c53b06.css.map": "/react-gh-pages/static/css/main.11c53b06.css.map",
-    "main.6348e288.js.map": "/react-gh-pages/static/js/main.6348e288.js.map",
-    "787.fe221098.chunk.js.map": "/react-gh-pages/static/js/787.fe221098.chunk.js.map"
+    "main.css": "/Garrick-Website/static/css/main.11c53b06.css",
+    "main.js": "/Garrick-Website/static/js/main.37395115.js",
+    "static/js/787.fe221098.chunk.js": "/Garrick-Website/static/js/787.fe221098.chunk.js",
+    "static/media/growtential.png": "/Garrick-Website/static/media/growtential.26871bf8e7fd48cc3669.png",
+    "static/media/colorbash.png": "/Garrick-Website/static/media/colorbash.3ff7a07d80675d9f0805.png",
+    "static/media/operationillumussion.png": "/Garrick-Website/static/media/operationillumussion.93fb66292eebfb2e847d.png",
+    "static/media/blade.png": "/Garrick-Website/static/media/blade.4c69262bcc0b3f9d4309.png",
+    "static/media/roselabyrinth.png": "/Garrick-Website/static/media/roselabyrinth.debe282d02fda1cc4725.png",
+    "static/media/sketch.png": "/Garrick-Website/static/media/sketch.a99a61a41f6810ebbd39.png",
+    "index.html": "/Garrick-Website/index.html",
+    "main.11c53b06.css.map": "/Garrick-Website/static/css/main.11c53b06.css.map",
+    "main.37395115.js.map": "/Garrick-Website/static/js/main.37395115.js.map",
+    "787.fe221098.chunk.js.map": "/Garrick-Website/static/js/787.fe221098.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11c53b06.css",
-    "static/js/main.6348e288.js"
+    "static/js/main.37395115.js"
   ]
 }
