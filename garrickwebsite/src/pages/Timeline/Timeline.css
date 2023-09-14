@@ -4,18 +4,23 @@
     font-family: "Roboto";
 }
 
+.timeline {
+    color: darkblue;
+}
+
 .title {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    font-size: 25px;
     color: darkblue;
 }
 
 .intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 275px;
     padding-left: 275px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     color: darkblue;
 }
 
@@ -25,13 +30,36 @@
 }
 
 .top {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 700px;
-    padding-left: 275px;
+    /* display: flex;
+    justify-content: center; */
+    padding-bottom: 60px;
+}
+
+.date {
+    margin-left: 500px;
 }
 
 .name {
+    margin-left: 175px;
     font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.description {
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.timeline img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 650px;
 }
 
