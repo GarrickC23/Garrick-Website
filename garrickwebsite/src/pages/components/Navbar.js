@@ -13,6 +13,11 @@ const Navbar = () => {
             </div>
             <div className="center">
                 <a href="/">Resume</a>
+                <a>About</a>
+                <a>Education</a>
+                <a>Work Experience</a>
+                <a>Projects</a>
+                <a>Interests</a>
             </div>
             <div className="right">
                 <a href="https://www.linkedin.com/in/garrick-chiu/" target="_blank"><AiFillLinkedin/></a>

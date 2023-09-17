@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Introduction from "../Introduction/Introduction";
-import Timeline from "../Timeline/Timeline";
+import Experience from "../Experience/Experience";
+import Projects from "../Projects/Projects";
 
 function Home() {
     return (
@@ -11,8 +12,11 @@ function Home() {
                 <div className="introduction">
                     <Introduction />
                 </div>
-                <div className="timeline">
-                    <Timeline />
+                <div className="experience">
+                    <Experience />
+                </div>
+                <div className="projects">
+                    <Projects />
                 </div>
             </div>
         </div>

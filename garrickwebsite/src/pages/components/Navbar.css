@@ -23,7 +23,7 @@
 }
 .navbar h1 {
   font-size: 40px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .center {
   text-align: center;
@@ -33,9 +33,10 @@
   margin-right: 50px;
 }
 .navbar a {
-  padding: 7px;
+  padding: 9px;
   color: darkblue;
   text-decoration: none;
+  font-weight: bold;
 }
 .navbar a:hover {
   color: red;

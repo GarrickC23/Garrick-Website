@@ -1,0 +1,16 @@
+.experience {
+    color:darkblue;
+    margin-left: 20%;
+    max-width: 60%;
+}
+
+.experience .university {
+    padding-bottom: 10px;
+}
+
+.experience h1 {
+    padding-bottom: 10px;
+}
+.experience p {
+    padding-bottom: 5px;
+}
