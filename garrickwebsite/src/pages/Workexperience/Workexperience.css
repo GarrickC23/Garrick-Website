@@ -1,5 +1,7 @@
 .workexperience {
     color: darkblue;
+    background-color: #F3F3F3;
+    padding-bottom: 30px;
 }
 .workexperience .worklist {
     display: grid;
@@ -14,12 +16,18 @@
     font-size: 30px;
 }
 .workexperience .workbox {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px 50px;
+    width: 710px;
+    height: auto;
+    padding-bottom: 5px;
+    font-size: 15px;
 }
 .workexperience .workbox::before {
     content: '{';
-    font-size: 140px;
+    font-size: 150px;
     font-weight: 100;
     position: absolute;
     left: -50px;
@@ -28,10 +36,10 @@
 }
 .workexperience .workbox::after {
     content: '}';
-    font-size: 140px;
+    font-size: 150px;
     font-weight: 100;
     position: absolute;
-    right: 25px;
+    right: 1px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -41,4 +49,14 @@
 .workexperience .workdescription {
     border-left: 1px solid darkblue;
     padding: 0 15px;
+    max-width: 700px;
+}
+.workexperience p {
+    padding-bottom: 10px;
+}
+.workexperience h2 {
+    padding-bottom: 10px;
+}
+.workexperience .workname {
+    padding-bottom: 10px;
 }

@@ -11,19 +11,19 @@ function Home() {
         <div className="home">
             <Navbar />
             <div className="content">
-                <div className="introduction">
+                <div className="introduction" id="introduction">
                     <Introduction />
                 </div>
-                <div className="workexperience">
+                <div className="workexperience" id="workexperience">
                     <Workexperience />
                 </div>
-                <div className="experience">
+                <div className="experience" id="experience">
                     <Education />
                 </div>
-                <div className="projects">
+                <div className="projects" id="projects">
                     <Projects />
                 </div>
-                <div className="contact">
+                <div className="contact" id="contact">
                     <Contact />
                 </div>
             </div>

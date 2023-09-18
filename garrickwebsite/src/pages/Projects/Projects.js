@@ -34,6 +34,16 @@ function Projects() {
                     </div>
                     <div className="projectbox">
                         <div className="projecttitle">GameReviews</div>
+                        <img src={gamereviews} alt=''/>
+                        <div className="projectdescription">
+                        Wesley Kam and I designed a website for consolidating game ratings using React.js, 
+                        MongoDB, Node.js, and Express. We utilized Mongo Atlas and JWT for user authentication 
+                        and efficient database handling, allowing users to interact with their game ratings 
+                        and efficiently displaying data through Express Routing.
+                        </div>
+                        <div className="pillflexbox">
+                            <div className="pill">View Project</div>
+                        </div>
                     </div>
                     <div className="projectbox">
                         <div className="projecttitle">TRON Game</div>
@@ -44,8 +54,11 @@ function Projects() {
                         sourced from SNES controllers. Through custom libraries and C++ programming, 
                         I executed the game logic and managed the hardware components. 
                         </div>
+                        <div className="pillflexbox">
+                            <div className="pill">View Project</div>
+                        </div>
                     </div>
-                    <div className="projecttitle">Blade</div>
+                    {/* <div className="projecttitle">Blade</div> */}
                     <div className="projectbox combined">
                         <div className="projecttitle">Blade</div>
                         <div className="projectflexbox">
