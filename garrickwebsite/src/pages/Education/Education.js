@@ -1,7 +1,7 @@
 import React from "react";
-import './Experience.css';
+import './Education.css';
 
-function Experience() {
+function Education() {
     return (
         <experience className="experience">
             <div className="title">
@@ -34,4 +34,4 @@ function Experience() {
     )
 }
 
-export default Experience;
+export default Education;

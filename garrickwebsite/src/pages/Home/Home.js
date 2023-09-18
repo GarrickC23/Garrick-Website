@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Introduction from "../Introduction/Introduction";
-import Experience from "../Experience/Experience";
+import Workexperience from "../Workexperience/Workexperience";
+import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 
@@ -13,8 +14,11 @@ function Home() {
                 <div className="introduction">
                     <Introduction />
                 </div>
+                <div className="workexperience">
+                    <Workexperience />
+                </div>
                 <div className="experience">
-                    <Experience />
+                    <Education />
                 </div>
                 <div className="projects">
                     <Projects />
