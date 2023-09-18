@@ -12,16 +12,14 @@ import gamereviews from './gamereviews.png';
 function Projects() {
     return (
         <projects className="projects">
-            <div class="title">
-                <h1>Projects</h1>
-                <p>Here are some projects that I worked on! :D</p>
-            </div>
+            <div className="title"><h1>Projects</h1></div>
+            <div className="titledescription"><p>Here are some projects that I worked on! :D</p></div>
             <div className="flexbox">
                 <div className="projectlist">
-                    <div class="projectbox">
-                        <div class="projecttitle">Sketch</div>
+                    <div className="projectbox">
+                        <div className="projecttitle">Sketch</div>
                         <img src={sketch} alt=''/>
-                        <div class="projectdescription">
+                        <div className="projectdescription">
                         In a team, we developed a Unity-based 2D platformer 
                         where players draw shapes as weapons and tools. Players 
                         combat bosses and design levels using these abilities. 
@@ -29,22 +27,61 @@ function Projects() {
                         enemy AIs, custom animations, and mechanics. Advanced data structures 
                         support user customization.
                         </div>
+                        <div className="pillflexbox">
+                            <div className="pill">View Project</div>
+                            <div className="pill">Play Game</div>
+                        </div>
                     </div>
-                    <div class="projectbox">
-                        <div class="projecttitle">GameReviews</div>
+                    <div className="projectbox">
+                        <div className="projecttitle">GameReviews</div>
                     </div>
-                    <div class="projectbox">
-                        <div class="projecttitle">TRON Game</div>
+                    <div className="projectbox">
+                        <div className="projecttitle">TRON Game</div>
                         <img src={trongame} alt=''/>
-                        <div class="trongame">
+                        <div className="projectdescription">
                         I developed a TRON game using an Arduino microcontroller paired 
                         with a Nokia LCD display. The game supports two players, with input 
                         sourced from SNES controllers. Through custom libraries and C++ programming, 
                         I executed the game logic and managed the hardware components. 
                         </div>
                     </div>
-                    <div class="projectbox">
-                        <div class="projecttitle">Blade</div>
+                    <div className="projecttitle">Blade</div>
+                    <div className="projectbox combined">
+                        <div className="projecttitle">Blade</div>
+                        <div className="projectflexbox">
+                            <img src={blade} alt=''/>
+                            <div className="projectdescription">Blade is a 2D platformer that emphasizes 
+                            intricate parrying combat combined with immersive overworld exploration. As 
+                            the lead for this project, I orchestrated its development, seamlessly coordinating 
+                            with cross-functional teams from programming, writing, to art. My role was 
+                            paramount during the game's conceptual phase, where I established the guiding vision 
+                            and core design principles. My hands-on involvement extended to the programming, 
+                            where I ensured the inclusion of innovative mechanics and a fluid gameplay experience 
+                            across different platforms. Furthermore, I was instrumental in resource management 
+                            and scheduling, ensuring we efficiently allocated our assets and consistently hit 
+                            our milestones.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="hackathontitle"><h1>Hackathons</h1></div>
+            <div className="hackathonflexbox">
+                <div className="hackathonlist">
+                    <div className="hackathon">
+                        <div className="hackathonname">ColorBash</div>
+                        <div className="hackathonimage"><img src={colorbash} alt=''/></div>
+                    </div>
+                    <div className="hackathon">
+                        <div className="hackathonname">Grow-Tential</div>
+                        <div className="hackathonimage"><img src={growtential} alt=''/></div>
+                    </div>
+                    <div className="hackathon">
+                        <div className="hackathonname">Operation:Illumission</div>
+                        <div className="hackathonimage"><img src={operationillumission} alt=''/></div>
+                    </div>
+                    <div className="hackathon">
+                        <div className="hackathonname">Rose of the Labyrinth</div>
+                        <div className="hackathonimage"><img src={roselabyrinth} alt=''/></div>
                     </div>
                 </div>
             </div>

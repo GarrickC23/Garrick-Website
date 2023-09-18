@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Introduction from "../Introduction/Introduction";
 import Experience from "../Experience/Experience";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 function Home() {
     return (
@@ -17,6 +18,9 @@ function Home() {
                 </div>
                 <div className="projects">
                     <Projects />
+                </div>
+                <div className="contact">
+                    <Contact />
                 </div>
             </div>
         </div>
