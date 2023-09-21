@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0285e9f.css",
-    "main.js": "/static/js/main.cbed76e5.js",
+    "main.css": "/static/css/main.52638761.css",
+    "main.js": "/static/js/main.0cb96915.js",
     "static/js/787.fe221098.chunk.js": "/static/js/787.fe221098.chunk.js",
     "static/media/growtential.png": "/static/media/growtential.26871bf8e7fd48cc3669.png",
     "static/media/colorbash.png": "/static/media/colorbash.3ff7a07d80675d9f0805.png",
     "static/media/operationillumussion.png": "/static/media/operationillumussion.93fb66292eebfb2e847d.png",
-    "static/media/blade.png": "/static/media/blade.4c69262bcc0b3f9d4309.png",
+    "static/media/sketch.png": "/static/media/sketch.8834877a4640b2e4b075.png",
+    "static/media/blade.png": "/static/media/blade.74c30445d9ac89028c85.png",
     "static/media/garrickchiu.jpg": "/static/media/garrickchiu.805ff77e38074a9f55dc.jpg",
     "static/media/trongame.png": "/static/media/trongame.60f9f85cfc3ab1715982.png",
     "static/media/roselabyrinth.png": "/static/media/roselabyrinth.debe282d02fda1cc4725.png",
-    "static/media/sketch.png": "/static/media/sketch.974fcf8e026c954780d0.png",
+    "static/media/personalwebsite.png": "/static/media/personalwebsite.fd00194dd27a080aa4ed.png",
     "index.html": "/index.html",
-    "main.c0285e9f.css.map": "/static/css/main.c0285e9f.css.map",
-    "main.cbed76e5.js.map": "/static/js/main.cbed76e5.js.map",
+    "main.52638761.css.map": "/static/css/main.52638761.css.map",
+    "main.0cb96915.js.map": "/static/js/main.0cb96915.js.map",
     "787.fe221098.chunk.js.map": "/static/js/787.fe221098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0285e9f.css",
-    "static/js/main.cbed76e5.js"
+    "static/css/main.52638761.css",
+    "static/js/main.0cb96915.js"
   ]
 }
