@@ -19,6 +19,14 @@
 }
 .flexbox {
     display: flex;
+    padding-bottom: 52px;
+    justify-content: center;
+    width: 100%;
+    color: #041446;
+}
+.flexboxtwo {
+    display: flex;
+    padding-bottom: 20px;
     justify-content: center;
     width: 100%;
     color: #041446;
@@ -27,13 +35,23 @@
     display: grid;
     align-items: flex-start;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: 1fr 2fr;
+    /* grid-template-columns: 1fr 2fr; */
     grid-column-gap: 52px;
     grid-row-gap: 52px;
     /* color: #041446; */
 }
+.projectlisttwo {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 52px;
+    grid-row-gap: 52px;
+}
 @media (min-width: 0px) { 
     .projectlist {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .projectlisttwo {
         grid-template-columns: repeat(1, 1fr);
     }
 }
@@ -45,6 +63,9 @@
 @media (min-width: 1172px) { 
     .projectlist {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .projectlisttwo {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 .projectbox {
@@ -62,15 +83,15 @@
     position: relative;
 }
 .projectbox.combined {
-    width: 1105px;
-    height: 200px;
-    grid-row-start: 2;
+    width: 501px;
+    height: 400px;
+    /* grid-row-start: 2;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2; */
 }
-.projectflexbox {
+/* .projectflexbox {
     display: flex;
-}
+} */
 .projecttitle {
     text-align: center;
     font-weight: bold;
@@ -81,6 +102,9 @@
     padding-bottom: 15px;
     max-height: 120px;
 }
+/* .projects .projectimg {
+
+} */
 .projectdescription {
     text-align: start;
 }
@@ -108,6 +132,7 @@
     color: white;
     background-color: #3365FF;
 }
+
 .hackathonflexbox {
     display: flex;
     justify-content: center;
@@ -130,6 +155,9 @@
     max-width: 280px;
     max-height: 280px;
     scale: 1.07;
+}
+.hackathonimage:hover {
+    
 }
 .hackathonlist {
     display: grid;

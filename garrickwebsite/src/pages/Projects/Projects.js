@@ -8,6 +8,7 @@ import roselabyrinth from './roselabyrinth.png';
 import blade from './blade.png';
 import trongame from './trongame.png';
 import gamereviews from './gamereviews.png';
+import personalwebsite from './personalwebsite.png';
 
 function Projects() {
     return (
@@ -17,15 +18,13 @@ function Projects() {
             <div className="flexbox">
                 <div className="projectlist">
                     <div className="projectbox">
-                        <div className="projecttitle">Sketch</div>
-                        <img src={sketch} alt=''/>
+                        <div className="projecttitle">Personal Website</div>
+                        <img src={personalwebsite} alt=''/>
                         <div className="projectdescription">
-                        In a team, we developed a Unity-based 2D platformer 
-                        where players draw shapes as weapons and tools. Players 
-                        combat bosses and design levels using these abilities. 
-                        Using C#, we crafted clean, adaptable code with four unique 
-                        enemy AIs, custom animations, and mechanics. Advanced data structures 
-                        support user customization.
+                        A personal website that I developed and designed with the help of my sister
+                        on the designing. It was built using React, HTML, and CSS. I implemented a responsive 
+                        design ensuring compatibility across various devices. Integrated tools like 
+                        google analytics to monitor user behavior and website traffic.
                         </div>
                         <div className="pillflexbox">
                             <div className="pill">View Project</div>
@@ -59,20 +58,45 @@ function Projects() {
                         </div>
                     </div>
                     {/* <div className="projecttitle">Blade</div> */}
+                </div>
+            </div>
+            <div className="flexboxtwo">
+                <div className="projectlisttwo">
                     <div className="projectbox combined">
                         <div className="projecttitle">Blade</div>
-                        <div className="projectflexbox">
-                            <img src={blade} alt=''/>
-                            <div className="projectdescription">Blade is a 2D platformer that emphasizes 
-                            intricate parrying combat combined with immersive overworld exploration. As 
-                            the lead for this project, I orchestrated its development, seamlessly coordinating 
-                            with cross-functional teams from programming, writing, to art. My role was 
-                            paramount during the game's conceptual phase, where I established the guiding vision 
-                            and core design principles. My hands-on involvement extended to the programming, 
-                            where I ensured the inclusion of innovative mechanics and a fluid gameplay experience 
-                            across different platforms. Furthermore, I was instrumental in resource management 
-                            and scheduling, ensuring we efficiently allocated our assets and consistently hit 
-                            our milestones.</div>
+                        <div className="projectboxtwo">
+                            <div className="projectimg"><img src={blade} alt=''/></div>
+                            <div className="projectdescription">Blade is a 2D platformer that brings together 
+                            intricate parrying combat with an immersive overworld exploration experience. 
+                            As the lead for this project, I played a pivotal role in its development. 
+                            Collaborating closely with cross-functional teams from programming, 
+                            writing, to art, I ensured we stayed true to our core vision and design principles. 
+                            My hands-on approach in the programming phase enabled the game to feature innovative 
+                            mechanics, ensuring a fluid gameplay experience across various platforms. 
+                            Beyond this, I was deeply involved in resource management which made sure tasks
+                            were done on time.</div>
+                        </div>
+                        <div className="pillflexbox">
+                            <div className="pill">View Project</div>
+                            <div className="pill">Play Game</div>
+                        </div>
+                    </div>
+                    <div className="projectbox combined">
+                        <div className="projecttitle">Sketch</div>
+                        <div className="projectboxtwo">
+                            <div className="projectimg"><img src={sketch} alt=''/></div>
+                            <div className="projectdescription">In collaboration with a team, I helped develop a 
+                            2D platformer in Unity where players control a character with the unique ability to 
+                            draw shapes. These shapes serve dual purposes, acting as weapons and building tools. 
+                            Players engage with various bosses and also have the opportunity to create their own 
+                            levels using their abilities. Utilizing C# and object-oriented programming, 
+                            we ensured clean and adaptable code. We introduced four distinct enemy AI types, 
+                            each with custom animations and mechanics. Advanced data structures were explored 
+                            to facilitate user customization.</div>
+                        </div>
+                        <div className="pillflexbox">
+                            <div className="pill">View Project</div>
+                            <div className="pill">Play Game</div>
                         </div>
                     </div>
                 </div>
