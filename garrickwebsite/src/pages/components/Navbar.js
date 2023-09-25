@@ -13,7 +13,7 @@ const Navbar = () => {
                 <h1>Garrick Chiu</h1>
             </div>
             <div className="center">
-                <Scrolllink label="Resume" targetId="resume" />
+                {/* <Scrolllink label="Resume" targetId="resume" /> */}
                 <Scrolllink label="About" targetId="introduction" />
                 <Scrolllink label="Work Experience" targetId="workexperience" />
                 <Scrolllink label="Education" targetId="experience" />

@@ -5,6 +5,7 @@ import Workexperience from "../Workexperience/Workexperience";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
+import Interests from "../Interests/Interests";
 
 function Home() {
     return (
@@ -22,6 +23,9 @@ function Home() {
                 </div>
                 <div className="projects" id="projects">
                     <Projects />
+                </div>
+                <div className="interests" id="interests">
+                    <Interests />
                 </div>
                 <div className="contact" id="contact">
                     <Contact />

@@ -1,0 +1,55 @@
+.interests {
+    color: darkblue;
+    background-color: #f3f3f3;
+}
+.interests .flexbox {
+    display: flex;
+    align-items: center;
+}
+.interests .interestlist {
+    display: grid;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    place-items: center;
+}
+.interests .intereststitle {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.interests .interestbox {
+    display: flex;
+}
+.interests .interestsmallbox {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px 50px;
+    height: auto;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.interests .interestsmallbox::before {
+    content: '{';
+    font-size: 150px;
+    font-weight: 100;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-45%);
+}
+.interests .interestname {
+    padding-bottom: 10px;
+}
+.interests .interestdescription {
+    border-left: 1px solid darkblue;
+    padding: 0 15px;
+}
+.interests p {
+    padding-bottom: 10px;
+}
+.interests .interestimg {
+    height: 200px;
+    width: 350px;
+}

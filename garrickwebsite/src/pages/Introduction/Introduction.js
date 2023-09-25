@@ -5,14 +5,19 @@ import garrickchiu from './garrickchiu.jpg';
 function Introduction() {
     return (
         <div className="Introduction">
-            <div class="profilepic">
+            <div className="profilepic">
                 <img src={garrickchiu} alt=''/>
             </div>
-            <div class ="about">
-                <div class="name"><p>Garrick Chiu</p></div>
-                <div class="description"><p>Aspiring Developer and Problem Solver 
+            <div className ="about">
+                <div className="name"><p>Garrick Chiu</p></div>
+                <div className="description"><p>Aspiring Developer and Problem Solver 
                 with a passion for creating impactful software and 
                 creative content that inspires people</p></div>
+                <div className="introductionbar">
+                    <div className="introbarflex">
+                        <div className="introcomponents"><p>Resume</p></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
