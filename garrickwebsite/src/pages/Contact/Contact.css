@@ -1,12 +1,13 @@
 .contact {
     color: #041446;
     background-color: white;
-    /* padding: 20px 371px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .contactbox {
     display: flex;
     justify-content: center;
-    gap: 158px;
+    gap: 140px;
 }
 .ping {
     padding-bottom: 20px;

@@ -27,8 +27,7 @@ function Projects() {
                         google analytics to monitor user behavior and website traffic.
                         </div>
                         <div className="pillflexbox">
-                            <div className="pill">View Project</div>
-                            <div className="pill">Play Game</div>
+                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">View Project</a>
                         </div>
                     </div>
                     <div className="projectbox">
@@ -41,7 +40,7 @@ function Projects() {
                         and efficiently displaying data through Express Routing.
                         </div>
                         <div className="pillflexbox">
-                            <div className="pill">View Project</div>
+                            <a href="https://github.com/GarrickC23/mywasseylist" className="pill" target="_blank">View Project</a>
                         </div>
                     </div>
                     <div className="projectbox">
@@ -54,7 +53,7 @@ function Projects() {
                         I executed the game logic and managed the hardware components. 
                         </div>
                         <div className="pillflexbox">
-                            <div className="pill">View Project</div>
+                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">View Project</a>
                         </div>
                     </div>
                     {/* <div className="projecttitle">Blade</div> */}
@@ -77,8 +76,7 @@ function Projects() {
                             were done on time.</div>
                         </div>
                         <div className="pillflexbox">
-                            <div className="pill">View Project</div>
-                            <div className="pill">Play Game</div>
+                            <a href="https://github.com/GarrickC23/Blade" className="pill" target="_blank">View Project</a>
                         </div>
                     </div>
                     <div className="projectbox combined">
@@ -95,8 +93,8 @@ function Projects() {
                             to facilitate user customization.</div>
                         </div>
                         <div className="pillflexbox">
-                            <div className="pill">View Project</div>
-                            <div className="pill">Play Game</div>
+                            <a href="https://github.com/GarrickC23/Sketch" className="pill" target="_blank">View Project</a>
+                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">Play Game</a>
                         </div>
                     </div>
                 </div>
@@ -106,19 +104,43 @@ function Projects() {
                 <div className="hackathonlist">
                     <div className="hackathon">
                         <div className="hackathonname">ColorBash</div>
-                        <div className="hackathonimage"><img src={colorbash} alt=''/></div>
+                        <div className="hackathonimage">
+                            <img src={colorbash} alt=''/>
+                            <div className="hover-options">
+                                <a href="https://github.com/GarrickC23/ColorBashh" className="pill" target="_blank">View Project</a>
+                                <a href="https://garrickchiu.itch.io/colorbash" className="pill" target="_blank">Play Game</a>
+                            </div>
+                        </div>
                     </div>
                     <div className="hackathon">
                         <div className="hackathonname">Grow-Tential</div>
-                        <div className="hackathonimage"><img src={growtential} alt=''/></div>
+                        <div className="hackathonimage">
+                            <img src={growtential} alt=''/>
+                            <div className="hover-options">
+                                <a href="https://github.com/GarrickC23/Grow-Your-Potential" className="pill" target="_blank">View Project</a>
+                                <a href="https://myong.itch.io/grow-tential" className="pill" target="_blank">Play Game</a>
+                            </div>
+                        </div>
                     </div>
                     <div className="hackathon">
                         <div className="hackathonname">Operation:Illumission</div>
-                        <div className="hackathonimage"><img src={operationillumission} alt=''/></div>
+                        <div className="hackathonimage">
+                            <img src={operationillumission} alt=''/>
+                            <div className="hover-options">
+                                <a href="https://github.com/myong003/CutieHack2022" className="pill" target="_blank">View Project</a>
+                                <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">Play Game</a>
+                            </div>
+                        </div>
                     </div>
                     <div className="hackathon">
                         <div className="hackathonname">Rose of the Labyrinth</div>
-                        <div className="hackathonimage"><img src={roselabyrinth} alt=''/></div>
+                        <div className="hackathonimage">
+                            <img src={roselabyrinth} alt=''/>
+                            <div className="hover-options">
+                                <a href="https://github.com/myong003/RoseHack2023" className="pill" target="_blank">View Project</a>
+                                <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">Play Game</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

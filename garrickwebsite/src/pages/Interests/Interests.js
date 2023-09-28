@@ -6,7 +6,7 @@ function Interests() {
     return (
         <interets className="interets">
             <div className="intereststitle">
-                <h1>Interests</h1>
+                <h1>Interests (WIP :D)</h1>
             </div>
             <div classsName="flexbox">
                 <div className="interestlist">
@@ -16,7 +16,7 @@ function Interests() {
                             <div className="interestname"><h1>Video Games</h1></div>
                             <div className="interestdescription">
                                 <p>One of my favorite things to do in my pasttime</p>
-                                <p>I have a backlogged where I rate all of the games that I play</p>
+                                <p>I have a backlogged where I rate all of the games that I play https://www.backloggd.com/u/YanaWanas/</p>
                                 <p>I also have a YouTube channel where I do monthly reivews of the games 
                                    games I played that month</p>
                                 <p>My favorite game of alltime is Hollow Knight</p>
@@ -39,6 +39,40 @@ function Interests() {
                                 <p>Currently training for a half marathon and hopefully be able to run a 
                                    full marathon in the future.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="interestbox">
+                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestsmallbox">
+                            <div className="interestname"><h1>Biking</h1></div>
+                            <div className="interestdescription">
+                                <p>Pretty much the same as running. A very chill and nice time</p>
+                                <p>I love to enjoy the nature and city around when I bike</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="interestbox">
+                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestsmallbox">
+                            <div className="interestname"><h1>Rock Climbing</h1></div>
+                            <div className="interestdescription">
+                                <p>Recently picked up this hobby and having a blast</p>
+                                <p>It's challenging but really fun at the same time</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="interestbox">
+                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestsmallbox">
+                            <div className="interestname"><h1>Drawing</h1></div>
+                            <div className="interestdescription">
+                                <p>One hobby that I hope to get very good at someday</p>
+                                <p>I am fascinated by art and love looking all kinds of styles</p>
+                                <p>If you are interested in video game character concept design/animation
+                                   send me an email :D
+                                </p>
+                                <p>I'm slowly learning bits and pieces. Here are some examples of my art!</p>
                             </div>
                         </div>
                     </div>

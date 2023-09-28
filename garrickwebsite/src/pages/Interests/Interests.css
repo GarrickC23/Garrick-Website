@@ -8,18 +8,21 @@
 }
 .interests .interestlist {
     display: grid;
-    padding-left: 20px;
+    padding-left: 70px;
     padding-bottom: 40px;
-    place-items: center;
+    place-content: center;
 }
 .interests .intereststitle {
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 30px;
 }
 .interests .interestbox {
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 40px;
 }
 .interests .interestsmallbox {
     display: inline-block;
@@ -50,6 +53,6 @@
     padding-bottom: 10px;
 }
 .interests .interestimg {
-    height: 200px;
     width: 350px;
+    height: 200px;
 }

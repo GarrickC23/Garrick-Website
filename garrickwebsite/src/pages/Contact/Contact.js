@@ -3,17 +3,20 @@ import axios from 'axios';
 import "./Contact.css";
 
 function Contact() {
-    const [formData, setFormData] = useState({
+    const initialFormData = {
         name: '',
         email: '',
         subject: '',
         message: '',
-    });
+    };
+
+    const [formData, setFormData] = useState(initialFormData);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/sendEmail', formData);
+            const response = await axios.post('http://localhost:5000/sendEmail', formData);
+            setFormData(initialFormData);
         } catch (error) {
             console.error("Error sending email", error);
         }
