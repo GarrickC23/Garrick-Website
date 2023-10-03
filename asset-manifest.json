@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e96a6bce.css",
-    "main.js": "/static/js/main.c1bcca53.js",
+    "main.css": "/static/css/main.2fb0728b.css",
+    "main.js": "/static/js/main.6e7135f1.js",
     "static/js/787.fe221098.chunk.js": "/static/js/787.fe221098.chunk.js",
+    "static/media/drawing.png": "/static/media/drawing.cf549ab7dde59ff5bcb1.png",
     "static/media/growtential.png": "/static/media/growtential.26871bf8e7fd48cc3669.png",
+    "static/media/videogames.png": "/static/media/videogames.523530dc38a19fd55183.png",
     "static/media/colorbash.png": "/static/media/colorbash.3ff7a07d80675d9f0805.png",
     "static/media/operationillumussion.png": "/static/media/operationillumussion.93fb66292eebfb2e847d.png",
+    "static/media/biking.jpg": "/static/media/biking.ac5e0edf1e9239fea7e3.jpg",
     "static/media/sketch.png": "/static/media/sketch.8834877a4640b2e4b075.png",
+    "static/media/rockclimbing.jpg": "/static/media/rockclimbing.09281b5d1bd7a9d8da0f.jpg",
     "static/media/blade.png": "/static/media/blade.74c30445d9ac89028c85.png",
     "static/media/garrickchiu.jpg": "/static/media/garrickchiu.805ff77e38074a9f55dc.jpg",
     "static/media/trongame.png": "/static/media/trongame.60f9f85cfc3ab1715982.png",
     "static/media/roselabyrinth.png": "/static/media/roselabyrinth.debe282d02fda1cc4725.png",
     "static/media/personalwebsite.png": "/static/media/personalwebsite.fd00194dd27a080aa4ed.png",
     "index.html": "/index.html",
-    "main.e96a6bce.css.map": "/static/css/main.e96a6bce.css.map",
-    "main.c1bcca53.js.map": "/static/js/main.c1bcca53.js.map",
+    "main.2fb0728b.css.map": "/static/css/main.2fb0728b.css.map",
+    "main.6e7135f1.js.map": "/static/js/main.6e7135f1.js.map",
     "787.fe221098.chunk.js.map": "/static/js/787.fe221098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e96a6bce.css",
-    "static/js/main.c1bcca53.js"
+    "static/css/main.2fb0728b.css",
+    "static/js/main.6e7135f1.js"
   ]
 }
