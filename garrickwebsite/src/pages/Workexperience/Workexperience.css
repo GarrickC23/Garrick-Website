@@ -27,8 +27,8 @@
 }
 .workexperience .workbox::before {
     content: '{';
-    font-size: 150px;
-    font-weight: 100;
+    font-size: 170px;
+    font-weight: 70;
     position: absolute;
     left: -50px;
     top: 50%;
@@ -36,8 +36,8 @@
 }
 .workexperience .workbox::after {
     content: '}';
-    font-size: 150px;
-    font-weight: 100;
+    font-size: 170px;
+    font-weight: 70;
     position: absolute;
     right: 1px;
     top: 50%;

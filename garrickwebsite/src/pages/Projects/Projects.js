@@ -88,7 +88,7 @@ function Projects() {
                             draw shapes. These shapes serve dual purposes, acting as weapons and building tools. 
                             Players engage with various bosses and also have the opportunity to create their own 
                             levels using their abilities. Utilizing C# and object-oriented programming, 
-                            we ensured clean and adaptable code. We introduced four distinct enemy AI types, 
+                            we ensured clean and adaptable code. We introduced 15 distinct enemy AI types, 
                             each with custom animations and mechanics. Advanced data structures were explored 
                             to facilitate user customization.</div>
                         </div>

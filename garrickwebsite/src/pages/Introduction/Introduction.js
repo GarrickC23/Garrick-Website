@@ -15,7 +15,7 @@ function Introduction() {
                 creative content that inspires people</p></div>
                 <div className="introductionbar">
                     <div className="introbarflex">
-                        <div className="introcomponents"><a href="/resume.pdf" target="_blank" 
+                        <div className="introcomponents"><a href="/GarrickResume.pdf" target="_blank" 
                         rel="noopener noreferrer">Resume</a></div>
                     </div>
                 </div>

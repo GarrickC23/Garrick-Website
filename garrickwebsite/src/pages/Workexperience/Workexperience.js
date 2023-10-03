@@ -13,9 +13,9 @@ function Workexperience() {
                         <div className="workname"><h1>zyBooks</h1></div>
                         <div className="workdescription">
                             <h2>Technical Support | May 2022 - Present</h2>
-                            <p>Served as a key point of contact for students, instructors, and internal stuff</p>
-                            <p>Addressed account-related issues and software bug rectifications</p>
-                            <p>Reduced company expenditures by 10% through efficient resolution of over 6,000 tickets</p>
+                            <p>Coordinated with engineers to address platform issues and provide insights to the sales team on zyBooks functionalities, facilitating timely solutions and fostering cross-team collaboration</p>
+                            <p>Assisted 5000+ students, 100+ instructors, and 20+ zyBooks staff on account issues and bug fixing</p>
+                            <p>Cut company spending by ~10% by solving over 6500 tickets</p>
                             <p>Audited the zyBooks curriculum to identify and debug erroneous code, enhancing user experience</p>
                         </div>
                     </div>
