@@ -107,7 +107,7 @@ function Projects() {
                         <div className="hackathonimage">
                             <img src={colorbash} alt=''/>
                             <div className="hover-options">
-                                <a href="https://github.com/GarrickC23/ColorBashh" className="pill" target="_blank">View Project</a>
+                                <a href="https://github.com/GarrickC23/ColorBash" className="pill" target="_blank">View Project</a>
                                 <a href="https://garrickchiu.itch.io/colorbash" className="pill" target="_blank">Play Game</a>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ function Projects() {
                             <img src={roselabyrinth} alt=''/>
                             <div className="hover-options">
                                 <a href="https://github.com/myong003/RoseHack2023" className="pill" target="_blank">View Project</a>
-                                <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">Play Game</a>
+                                <a href="https://garrickchiu.itch.io/rose-of-the-labyrinth" className="pill" target="_blank">Play Game</a>
                             </div>
                         </div>
                     </div>

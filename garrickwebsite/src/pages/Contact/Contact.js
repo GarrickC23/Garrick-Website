@@ -42,6 +42,7 @@ function Contact() {
                         <div classname="otherinfo">
                             <p>Los Angeles</p>
                             <p>UCR Computer Science + Mathematics Minor</p>
+                            <p>This website was developed by Garrick Chiu, with design led by Kora Chiu</p>
                         </div>
                     </div>
                 </div>

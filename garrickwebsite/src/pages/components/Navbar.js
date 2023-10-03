@@ -18,6 +18,7 @@ const Navbar = () => {
                 <Scrolllink label="Work Experience" targetId="workexperience" />
                 <Scrolllink label="Education" targetId="experience" />
                 <Scrolllink label="Projects" targetId="projects" />
+                <Scrolllink label="Interests" targetId="interests" />
                 <Scrolllink label="Contact" targetId="contact" />
             </div>
             <div className="right">

@@ -1,6 +1,10 @@
 import React from "react";
 import "./Interests.css";
 import garrickchiu from './garrickchiu.jpg';
+import videogames from './videogames.png';
+import rockclimbing from './rockclimbing.jpg'
+import biking from './biking.jpg'
+import drawing from './drawing.png'
 
 function Interests() {
     return (
@@ -11,17 +15,16 @@ function Interests() {
             <div classsName="flexbox">
                 <div className="interestlist">
                     <div className="interestbox">
-                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestimg"><img src={videogames} alt=''/></div>
                         <div className="interestsmallbox">
                             <div className="interestname"><h1>Video Games</h1></div>
                             <div className="interestdescription">
-                                <p>One of my favorite things to do in my pasttime</p>
-                                <p>I have a backlogged where I rate all of the games that I play https://www.backloggd.com/u/YanaWanas/</p>
-                                <p>I also have a YouTube channel where I do monthly reivews of the games 
-                                   games I played that month</p>
-                                <p>My favorite game of alltime is Hollow Knight</p>
-                                <p>In addition to playing games, I also love to create games. 
-                                   I am currently leading a team developing a game!
+                                <p>Delving into diverse gaming worlds is one of my favorite pasttimes. I try my best to try all new types of games. Any reocmmendations are welcome!</p>
+                                <p>Take a look through my gaming experiences and explore my ratings on my <a href="https://www.backloggd.com/u/YanaWanas/" target="_blank">Backlogged</a></p>
+                                <p>I also share my insights and monthly gaming reviews on my <a href="https://www.youtube.com/@garrickchiu6635/videos" target="_blank">YouTube</a> channel</p>
+                                <p>My favorite game of all-time is Hollow Knight!</p>
+                                <p>Beyond playing games, I harbor a passion for creating them and am currently 
+                                spearheading a team to develop a new game!
                                 </p>
                             </div>
                         </div>
@@ -31,46 +34,49 @@ function Interests() {
                         <div className="interestsmallbox">
                             <div className="interestname"><h1>Running</h1></div>
                             <div className="interestdescription">
-                                <p>Favorite sport or exercise to do. I run about 3-4 times a week</p>
-                                <p>Getting a runner's high while listening to awesome music is one of the
+                                <p>Running, especially 3-4 times a week, ranks as my favorite exercise</p>
+                                <p>Achieving a runner's high, synchronized with awesome music, is one of the
                                    greatest feelings in the world.
                                 </p>
-                                <p>Mostly a long-distance runner</p>
-                                <p>Currently training for a half marathon and hopefully be able to run a 
+                                <p>I predominantly indulge in long-distance running</p>
+                                <p>Presently, I am training for a half marathon, with aspirations to conqueror a
                                    full marathon in the future.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="interestbox">
-                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestimg"><img src={biking} alt=''/></div>
                         <div className="interestsmallbox">
                             <div className="interestname"><h1>Biking</h1></div>
                             <div className="interestdescription">
-                                <p>Pretty much the same as running. A very chill and nice time</p>
-                                <p>I love to enjoy the nature and city around when I bike</p>
+                                <p>Similar to running, biking offers a serene and pleasant escape for me</p>
+                                <p>I love to appreciate nature and observing city life during my rides</p>
+                                <p>My favorite route is the San Gabriel River Trail all the way to Long Beach</p>
+                                <p>The longest and furthest I biked was 60 miles in 6 hours :D</p>
                             </div>
                         </div>
                     </div>
                     <div className="interestbox">
-                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestimg"><img src={rockclimbing} alt=''/></div>
                         <div className="interestsmallbox">
                             <div className="interestname"><h1>Rock Climbing</h1></div>
                             <div className="interestdescription">
                                 <p>Recently picked up this hobby and having a blast</p>
                                 <p>It's challenging but really fun at the same time</p>
+                                <p>Currently, I can only do v0-v2, but I hope to get to v4-v5 by the end of the year</p>
                             </div>
                         </div>
                     </div>
                     <div className="interestbox">
-                        <div className="interestimg"><img src={garrickchiu} alt=''/></div>
+                        <div className="interestimg"><img src={drawing} alt=''/></div>
                         <div className="interestsmallbox">
                             <div className="interestname"><h1>Drawing</h1></div>
                             <div className="interestdescription">
-                                <p>One hobby that I hope to get very good at someday</p>
-                                <p>I am fascinated by art and love looking all kinds of styles</p>
-                                <p>If you are interested in video game character concept design/animation
-                                   send me an email :D
+                                <p>I hope to get really good at drawing one day</p>
+                                <p>I am fascinated by art and love looking all kinds of drawings. Manga art from Berserk, One Piece, Hunter x Hunter and Elden Ring, Sekiro concept art.
+                                    These are all so amazing </p>
+                                <p>If you're into video game character concept design or animation, send me an email! :D
                                 </p>
                                 <p>I'm slowly learning bits and pieces. Here are some examples of my art!</p>
                             </div>
