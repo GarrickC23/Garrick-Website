@@ -53,6 +53,7 @@ img {
 }
 .Introduction a {
     text-decoration: none;
+    color: #f3f3f3;
 }
 .Introduction a:visited {
     color: inherit;
