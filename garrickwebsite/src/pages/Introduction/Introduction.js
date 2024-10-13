@@ -10,7 +10,7 @@ function Introduction() {
             </div>
             <div className ="about">
                 <div className="name"><p>Garrick Chiu</p></div>
-                <div className="description"><p>Aspiring Developer and Problem Solver 
+                <div className="description"><p>Game Designer and Developer 
                 with a passion for creating impactful software and 
                 creative content that inspires people</p></div>
                 <div className="introductionbar">
