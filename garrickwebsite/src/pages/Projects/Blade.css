@@ -1,0 +1,69 @@
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    padding-top: 120px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .project-title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-subtitle {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .project-summary h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .project-summary p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  .project-role h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .project-role span {
+    font-weight: normal;
+  }
+  
+  .project-role ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .project-role li {
+    margin-bottom: 10px;
+  }
+  
+  .project-trailer h4 {
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './Projects.css';
 import colorbash from './colorbash.png';
 import growtential from './growtential.png';
@@ -8,7 +9,7 @@ import roselabyrinth from './roselabyrinth.png';
 import blade from './blade.png';
 import trongame from './trongame.png';
 import gamereviews from './gamereviews.png';
-import personalwebsite from './personalwebsite.png';
+//import personalwebsite from './personalwebsite.png';
 
 function Projects() {
     return (
@@ -17,7 +18,7 @@ function Projects() {
             <div className="titledescription"><p>Here are some projects that I worked on! :D</p></div>
             <div className="flexbox">
                 <div className="projectlist">
-                    <div className="projectbox">
+                    {/* <div className="projectbox">
                         <div className="projecttitle">Personal Website</div>
                         <img src={personalwebsite} alt=''/>
                         <div className="projectdescription">
@@ -29,31 +30,23 @@ function Projects() {
                         <div className="pillflexbox">
                             <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">View Project</a>
                         </div>
+                    </div> */}
+                    <div className="projectbox">
+                        <Link to="/blade" className="projectlink">
+                        <div className="projecttitle">Blade</div>
+                        <div className="projectrole">Combat Designer / Gameplay Scripter</div>
+                        <img src={blade} alt=''/>
+                        <div className="pillflexbox">
+                            <a href="https://github.com/GarrickC23/Blade" className="pill" target="__blank">View Project</a>
+                        </div>
+                        </Link>
                     </div>
                     <div className="projectbox">
-                        <div className="projecttitle">GameReviews</div>
+                        <div className="projecttitle">Blood and Soul</div>
+                        <div className="projectrole">Game Designer / Software Engineer</div>
                         <img src={gamereviews} alt=''/>
-                        <div className="projectdescription">
-                        Wesley Kam and I designed a website for consolidating game ratings using React.js, 
-                        MongoDB, Node.js, and Express. We utilized Mongo Atlas and JWT for user authentication 
-                        and efficient database handling, allowing users to interact with their game ratings 
-                        and efficiently displaying data through Express Routing.
-                        </div>
                         <div className="pillflexbox">
-                            <a href="https://github.com/GarrickC23/mywasseylist" className="pill" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                    <div className="projectbox">
-                        <div className="projecttitle">TRON Game</div>
-                        <img src={trongame} alt=''/>
-                        <div className="projectdescription">
-                        I developed a TRON game using an Arduino microcontroller paired 
-                        with a Nokia LCD display. The game supports two players, with input 
-                        sourced from SNES controllers. Through custom libraries and C++ programming, 
-                        I executed the game logic and managed the hardware components. 
-                        </div>
-                        <div className="pillflexbox">
-                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">View Project</a>
+                            <a href="https://github.com/GarrickC23/mywasseylist" className="pill" target="__blank">View Project</a>
                         </div>
                     </div>
                     {/* <div className="projecttitle">Blade</div> */}
@@ -62,39 +55,18 @@ function Projects() {
             <div className="flexboxtwo">
                 <div className="projectlisttwo">
                     <div className="projectbox combined">
-                        <div className="projecttitle">Blade</div>
-                        <div className="projectboxtwo">
-                            <div className="projectimg"><img src={blade} alt=''/></div>
-                            <div className="projectdescription">Blade is a 2D platformer that brings together 
-                            intricate parrying combat with an immersive overworld exploration experience. 
-                            As the lead for this project, I played a pivotal role in its development. 
-                            Collaborating closely with cross-functional teams from programming, 
-                            writing, to art, I ensured we stayed true to our core vision and design principles. 
-                            My hands-on approach in the programming phase enabled the game to feature innovative 
-                            mechanics, ensuring a fluid gameplay experience across various platforms. 
-                            Beyond this, I was deeply involved in resource management which made sure tasks
-                            were done on time.</div>
-                        </div>
+                        <div className="projecttitle">Sketch</div>
+                        <img src={sketch} alt=''/>
                         <div className="pillflexbox">
-                            <a href="https://github.com/GarrickC23/Blade" className="pill" target="_blank">View Project</a>
+                            <a href="https://github.com/GarrickC23/Sketch" className="pill" target="__blank">View Project</a>
+                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="__blank">Play Game</a>
                         </div>
                     </div>
                     <div className="projectbox combined">
-                        <div className="projecttitle">Sketch</div>
-                        <div className="projectboxtwo">
-                            <div className="projectimg"><img src={sketch} alt=''/></div>
-                            <div className="projectdescription">In collaboration with a team, I helped develop a 
-                            2D platformer in Unity where players control a character with the unique ability to 
-                            draw shapes. These shapes serve dual purposes, acting as weapons and building tools. 
-                            Players engage with various bosses and also have the opportunity to create their own 
-                            levels using their abilities. Utilizing C# and object-oriented programming, 
-                            we ensured clean and adaptable code. We introduced 15 distinct enemy AI types, 
-                            each with custom animations and mechanics. Advanced data structures were explored 
-                            to facilitate user customization.</div>
-                        </div>
+                        <div className="projecttitle">TRON Game</div>
+                        <img src={trongame} alt=''/>
                         <div className="pillflexbox">
-                            <a href="https://github.com/GarrickC23/Sketch" className="pill" target="_blank">View Project</a>
-                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="_blank">Play Game</a>
+                            <a href="https://github.com/GarrickC23/Garrick-Website" className="pill" target="__blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -107,8 +79,8 @@ function Projects() {
                         <div className="hackathonimage">
                             <img src={colorbash} alt=''/>
                             <div className="hover-options">
-                                <a href="https://github.com/GarrickC23/ColorBash" className="pill" target="_blank">View Project</a>
-                                <a href="https://garrickchiu.itch.io/colorbash" className="pill" target="_blank">Play Game</a>
+                                <a href="https://github.com/GarrickC23/ColorBash" className="pill" target="__blank">View Project</a>
+                                <a href="https://garrickchiu.itch.io/colorbash" className="pill" target="__blank">Play Game</a>
                             </div>
                         </div>
                     </div>

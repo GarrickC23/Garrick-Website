@@ -63,7 +63,7 @@
 }
 @media (min-width: 1172px) { 
     .projectlist {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .projectlisttwo {
         grid-template-columns: repeat(2, 1fr);
@@ -73,7 +73,7 @@
     display: inline-block;
     /* width: 300px;
     height: 400px; */
-    width: 300px;
+    width: 500px;
     height: 400px;
     padding: 0 25px;
     padding-top: 10px;
@@ -97,17 +97,21 @@
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    padding-bottom: 10px;
 }
 .projects img {
     padding-bottom: 15px;
-    max-height: 120px;
+    max-height: 300px;
 }
 /* .projects .projectimg {
 
 } */
-.projectdescription {
-    text-align: start;
+.projectrole {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.projectlink {
+    color:darkblue;
+    text-decoration: none;
 }
 .pillflexbox {
     display: flex;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import Scrolllink from './Scrolllink';
 import { AiFillGithub } from "react-icons/ai";
@@ -8,7 +9,7 @@ import { FaItchIo } from "react-icons/fa6"
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <div>
             <div className="left">
                 <h1>Garrick Chiu</h1>
             </div>
@@ -27,7 +28,7 @@ const Navbar = () => {
                 <a href="garrickchiu0723@gmail.com" target="_blank"><HiOutlineMail/></a>
                 <a href="https://garrickchiu.itch.io/" target="_blank"><FaItchIo/></a>
             </div>
-        </nav>
+        </div>
     )
 }
 
